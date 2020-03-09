@@ -1,0 +1,53 @@
+site_name: AST5210 RH exercises
+site_url: https://tiagopereira.space/ast5210
+
+# Repository
+repo_name: tiagopereira/ast5210
+repo_url: https://github.com/tiagopereira/ast5210
+edit_uri: ""
+
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/tiagopereira
+    - type: globe
+      link: https://tiagopereira.space/
+
+nav:
+    - Introduction: index.md
+    - Running RH 1.5D: running.md
+    - LTE and non-LTE: LTE_NLTE.md
+    - Formation of Ca II lines: CaII_formation.md
+    - Formation of Mg II lines: MgII_formation.md
+
+theme:
+    name: 'material'
+    font: false   # avoid Google fonts for GDPR compliance
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# For mathjax
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
