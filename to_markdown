@@ -1,0 +1,6 @@
+#!/bin/bash
+jupyter nbconvert --to markdown index.ipynb
+jupyter nbconvert --to markdown running.ipynb
+jupyter nbconvert --to markdown LTE_NLTE.ipynb
+jupyter nbconvert --to markdown CaII_formation.ipynb
+jupyter nbconvert --to markdown MgII_formation.ipynb
